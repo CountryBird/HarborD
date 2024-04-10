@@ -1,0 +1,27 @@
+: 사용 설명서 (지질학 데이터 처리기)
+	= 크게 3단계를 거치는데, 처음 2단계는 관련 데이터 처리 / 마지막 단계는 CALMET에서 사용되는
+	최종 파일로 결합
+
+	1) TERREL 지형 프로세서
+	= USGS Digital Evaluation Model 데이터를 추출하고 재구성하는 전처리 프로그램
+	= 격자 필드를 생성 가능(지형 고도에 대한)
+	= CALMET, MESOPAC, NUATMOS, ISC3 등에 대한 파일 형식 지원
+	=  입력: TERREL에서 접근할 수 있는 데이터베이스가 있음 (유저가이드 142 참고)
+		: 제어 파일 [TERREL.INP]
+	= 출력: 리스트 파일 [TERREL.LST], 플롯 파일 [TERREL.GRD]
+	MAKEGEO에서 사용 가능한 ASCII 파일 [TERREL.OUT]
+
+	2) 지형 사용 전처리기
+	= 복합 테마 그리드 육지 사용 및 토지 피복 데이터를 얻고 처리하는 방법에 대해 설명
+	= [CTGCOMP]: 육지 사용 데이터 압축 (첫번째 단계)
+		= 입력: 제어 파일[CTGCOMP.INP] 
+		= 출력: 리스트 파일 [CTGCOMP.LST]
+	= [CTGPROC]: 압축된 파일로 작업 (첫번째 단계 이후)
+		= 하나 이상의 그리드 셀 사용 가능
+		= 입력: 제어 파일 [CTGPROC.INP] 
+		= 출력: 리스트 파일 [CTPROC.LST]
+
+	3) MAKEGEO
+	= CALMET에서 사용되는 지질학 데이터를 제공하는 파일(GEO.DAT)을 생성
+	= 입력 요구: 그리드 고도 파일(TERREL에서 생성) , 그리드 육지 파일 (CTGPROC에서 생성)
+		 	제어 파일 [MAKEGEO.INP]
