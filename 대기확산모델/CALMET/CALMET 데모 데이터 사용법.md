@@ -125,3 +125,8 @@ PMERGE의 결과인 PRECIP.DAT을 CALMET 실행파일과 같은 곳에 위치해
 
 READ62의 결과인 UPALBR.DAT, UPPWM.DAT, UPCHH.DAT을 실행파일과 같은 곳에 위치해줍니다.
 
+![calmet](https://github.com/CountryBird/HarborD/assets/100738390/f6d4da11-3cfe-45d9-97c1-0e7389d6ccc2)
+
+※ CALMET.inp의 경로는 절대경로로 하는 편이 좋다고 판단
+
+※ ERROR 발생 시 뜨는 LINE에 대한 정보는 calmet.for의 line에 대한 값이기 때문에, 상황에 따라 확인해볼 것을 권장합니다.
