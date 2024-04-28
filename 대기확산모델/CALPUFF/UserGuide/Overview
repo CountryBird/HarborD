@@ -1,0 +1,19 @@
+: CALPUFF에서 사용되는 배출 데이터는크게 5가지로 나눌 수 있다.
+	= CALPUFF.INP : 제어 파일
+
+	임의의 다양한 소스 데이터를
+	= PTRMARB.DAT: 포인트 소스 파일에 제공
+	= AREMARB.DAT: 지역 소스 파일에 제공
+	= LNEMARB.DAT:  선형 소스 파일에 제공
+	= VOLEM.DAT: 그리드 파일에 제공
+
+: 오존의 시간별 관측치는 SO2, NOx 계산에 사용
+(OZONE.DAT에서 가져옴)
+
+: VD.DAT / CHEM.DAT은 각각 사용자가 지정한 퇴적, 화학적 변환 속도의 일주 주기
+: PROFILE.DAT은 CTDMPLUS의 옵션 입력 파일로, 플럼 모델의 파라미터인 σv σz를 계산
+: RESTARTB.DAT은 이전 시뮬레이션을 이어갈 수 있게함
+: COASTLN.DAT은 해안 효과 모듈을 사용함
+
+: 출력 파일은 이 후 CALPOST에 사용가능하다
+ = CONC.DAT / WFLX.DAT / DFLX.DAT: concentration, wet flux, dry flux 값을 가짐
