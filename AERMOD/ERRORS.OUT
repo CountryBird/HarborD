@@ -1,0 +1,31 @@
+  
+    ************ Error Message List *************
+  
+    PW     --- Pathway                           
+    Code   --- Error Type + Error Code           
+    L#     --- The Line Number Where Error Occurs
+    ModNam --- Module Name In Which Error Occurs 
+    Hints  --- Hints For The Possible Solution   
+    *********************************************
+  
+PW CODE    L#      MODNAM                       ERROR MESSAGES                      HINTS
+-- ---- ------- ------------- -------------------------------------------------- ------------
+  
+MX I440      49       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023061201
+MX I440      76       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023061304
+MX I440     105       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023061409
+MX I440     123       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023061503
+MX I440     216       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023061824
+MX I440     645       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023070621
+MX I440     674       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023070802
+MX I440     698       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023070902
+MX I440     699       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023070903
+MX I440     705       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023070909
+MX I440     935       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023071823
+MX I440     936       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023071824
+MX I440     939       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023071903
+MX I440     940       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023071904
+MX I440     944       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023071908
+MX I440     981       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023072021
+MX I440     984       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023072024
+MX I440     986       CHKCLM: Calm Hour Identified in Meteorology Data File at     2023072102

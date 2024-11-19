@@ -1,0 +1,37 @@
+job
+  messages  aermet_st1.msg
+  report    aermet_st1.rpt
+  debug
+  
+upperair
+**          Upper air data(Changwon)
+  data      upper_changwon.fsl  fsl
+  xdates    2023/6/10 to 2024/6/10
+  location  47155  35.17n  128.57e
+  extract   upper.iqa
+  qaout     upper.oqa
+
+surface
+**           Surface data(Busan)
+  data      surface_159.dat  CD144
+  xdates    2023/6/10 to 2024/6/10
+  location  159 35.10n 129.03e
+  extract   surface.iqa
+  qaout     surface.oqa
+
+onsite
+**           Onsite data(Baegunpo)
+  data      onsite_baegunpo.dat
+  xdates    2023/6/10 to 2024/6/10
+  location  159   35.10n  129.11e
+  qaout     onsite.oqa
+
+  read      1  osyr  osmo  osdy  oshr
+  read      2  HT01 TT01  RH01  WD01  WS01
+                         
+  format    1  ( I4,I4,I4,I4 )
+  format    2  ( 5F10.4 )
+
+  threshold 0.3
+
+  audit     rh

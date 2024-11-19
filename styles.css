@@ -1,0 +1,70 @@
+html, body { 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  /* 지도 */
+  #map {
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+  }
+  
+  /* 시간 표시 */
+  #current-time {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1000;
+  }
+  
+  /* 하위 조작 버튼 */
+  #controls {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    width: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+input[type=range] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #e0e0e0;
+  opacity: 0.8;
+  border-radius: 7.5px;
+  width: 70%;
+  height: 15px;
+  box-shadow: var(--box-shadow);
+}
+ 
+/** slider handle **/
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border-radius: 7.5px;
+  width: 15%;
+  height: 15px;
+  background-color: yellowgreen;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+}
+
+#toggle-animation {
+  background:yellowgreen;
+  border: none;
+}

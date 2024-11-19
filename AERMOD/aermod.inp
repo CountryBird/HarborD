@@ -1,0 +1,47 @@
+CO STARTING
+   TITLEONE  Evaluation of AERMOD : Busan 2023-2024
+   TITLETWO  Test
+   MODELOPT  dfault  conc
+   AVERTIME  1  3  24  period
+   POLLUTID  PM10
+   RUNORNOT  run
+   ERRORFIL  ERRORS.OUT
+CO FINISHED
+
+
+SO STARTING
+   ELEVUNIT  meters
+** The digit '4' was removed from the y-coordinate         
+**                          X        Y        Z  
+**                        ------   ------   ------ 
+   LOCATION  MC12  point  508691.0147172578 3884573.762625338   157.0     
+
+** Point Source       QS     HS     TS    VS   DS
+** Parameters:      -----   ----   ----  ----  ---
+   SRCPARAM  MC12    1.0    0.0  0.0   0.0   5.3
+
+   SRCGROUP  ALL
+SO FINISHED
+
+
+RE STARTING
+   INCLUDED ..\AERMAP\Busan_nested.rec
+RE FINISHED
+
+ME STARTING
+   SURFFILE  ..\aermet\aermet.sfc   free
+   PROFFILE  ..\aermet\aermet.pfl   free
+   SURFDATA  159  2023  Busan
+   SITEDATA  159  2023  Baegunpo
+   UAIRDATA  47155  2023  Changwon
+   PROFBASE  73.2
+   STARTEND 23 06 10 01 23 06 10 01
+ME FINISHED
+
+
+OU STARTING
+   RECTABLE  allave first-second
+   MAXTABLE  allave    400
+   SUMMFILE  aermod.sum
+   PLOTFILE period all ..\aerplot\plt\sample.plt
+OU FINISHED

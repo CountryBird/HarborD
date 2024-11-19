@@ -1,0 +1,67 @@
+** AERMAP - VERSION 18081                                              08/07/24
+**                                                                     19:46:26
+
+  
+ MAP PARAMETERS
+
+ TYPDAT:  NED 
+
+ From CNRCNV:
+
+ NED File #:         1
+ NED File Name: .\Seamless_Dem\Busan__WGS84_2022.tif
+
+ Horizontal Datum: World Geodetic System of 1984           
+
+ Corner Coordinates of NED Data:
+
+ Decimal Degrees (negative for West longitude):
+            SW Corner     NW Corner     NE Corner     SE Corner
+   Lon:    128.740964    128.740964    129.264970    129.264970
+   Lat:     34.988450     35.505375     35.505375     34.988450
+
+ Arc-seconds (negative for West longitude):
+            SW Corner     NW Corner     NE Corner     SE Corner
+   Lon:    463467.469    463467.469    465353.892    465353.892
+   Lat:    125958.420    127819.351    127819.351    125958.420
+
+ Meters:
+                 SW Corner     NW Corner     NE Corner     SE Corner
+   Easting:     476359.163    476508.737    524029.389    524182.389
+   Northing:   3871792.857   3929120.437   3929121.867   3871794.277
+   UTM Zone:   52 based on SW corner
+  
+
+ From CHKADJ      
+
+ NED File #:      1
+ NED:Busan__WGS84_2022.tif                <-- Raw header data segment
+ NED:Busan__WGS84_2022.tif                <-- Refined header data segment
+   DEM Level Code:    NED 
+   Planimetric Ref: Geographic Coordinates   
+     North-South Node separation:   3.1865  arc-seconds
+     East-West Node separation:     3.1865  arc-seconds
+   UTM/State Zone #  52
+   Horizontal Datum: World Geodetic System of 1984           
+   Num. of Profiles:   593
+   SW Corner Lat/Lon (deg.):       34.98845     128.74096
+   SW Corner Lat/Lon (sec.):     125958.420    463467.469
+   Latitude Range =  0.5169 Deg.;  Longitude Range =  0.5240 Deg.
+   Writing corner coords; UTM then Dec.Deg (negative for West longitude):
+     Southwest Corner        Northwest Corner        Northeast Corner        Southeast Corner
+     Easting    Northing     Easting    Northing     Easting    Northing     Easting    Northing 
+     476359.16  3871792.86   476508.74  3929120.44   524029.39  3929121.87   524182.39  3871794.28
+     Latitude   Longitude    Latitude   Longitude    Latitude   Longitude    Latitude   Longitude
+     34.9884    128.7410     35.5054    128.7410     35.5054    129.2650     34.9884    129.2650
+
+  
+
+
+ From INITER_NED:
+
+ MIN and MAX Elevations for NED files:
+
+ NED File #:      1
+ NED:Busan__WGS84_2022.tif               
+   Min. Elevation:     -7.3 meters
+   Max. Elevation:   1005.5 meters

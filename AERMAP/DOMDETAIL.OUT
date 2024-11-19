@@ -1,0 +1,82 @@
+** AERMAP - VERSION 18081                                              08/07/24
+**                                                                     19:46:26
+
+DOMCNV/CHKEXT:
+
+TYPDEM = "LAT"
+
+        Domain                   LAT          LONG                         UTM-N (m)     UTM-E (m)   ZONE   NADA
+                                        (neg. for West long.)
+  NE corner coordinates:      126511.19     464823.07 seconds            3888796.4961   510705.2471    52     0
+  SW corner coordinates:      126213.63     464463.81 seconds            3879623.9317   501616.2670    52     0
+  NE corner coordinates:      35.141997    129.117519 decimal deg.
+  SW corner coordinates:      35.059341    129.017725 decimal deg.
+
+
+       Checking domain corner  1 relative to NED file: .\Seamless_Dem\Busan__WGS84_2022.tif
+
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       127819.35       465353.89       35.505375      129.264970     3
+    Domain corner Lat/Lon:       126213.63       464463.81       35.059341      129.017725     3
+       NED corner Lat/Lon:       125958.42       463467.47       34.988450      128.740964     3
+  
+Domain corner  1 Inside NED file     1: .\Seamless_Dem\Busan__WGS84_2022.tif
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       127819.35       465353.89       35.505375      129.264970     3
+    Domain corner Lat/Lon:       126213.63       464463.81       35.059341      129.017725     3
+       NED corner Lat/Lon:       125958.42       463467.47       34.988450      128.740964     3
+  
+  
+       Checking domain corner  2 relative to NED file: .\Seamless_Dem\Busan__WGS84_2022.tif
+
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       127819.35       465353.89       35.505375      129.264970     3
+    Domain corner Lat/Lon:       126511.19       464463.81       35.141997      129.017725     3
+       NED corner Lat/Lon:       125958.42       463467.47       34.988450      128.740964     3
+  
+Domain corner  2 Inside NED file     1: .\Seamless_Dem\Busan__WGS84_2022.tif
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       127819.35       465353.89       35.505375      129.264970     3
+    Domain corner Lat/Lon:       126511.19       464463.81       35.141997      129.017725     3
+       NED corner Lat/Lon:       125958.42       463467.47       34.988450      128.740964     3
+  
+  
+       Checking domain corner  3 relative to NED file: .\Seamless_Dem\Busan__WGS84_2022.tif
+
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       127819.35       465353.89       35.505375      129.264970     3
+    Domain corner Lat/Lon:       126511.19       464823.07       35.141997      129.117519     3
+       NED corner Lat/Lon:       125958.42       463467.47       34.988450      128.740964     3
+  
+Domain corner  3 Inside NED file     1: .\Seamless_Dem\Busan__WGS84_2022.tif
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       127819.35       465353.89       35.505375      129.264970     3
+    Domain corner Lat/Lon:       126511.19       464823.07       35.141997      129.117519     3
+       NED corner Lat/Lon:       125958.42       463467.47       34.988450      128.740964     3
+  
+  
+       Checking domain corner  4 relative to NED file: .\Seamless_Dem\Busan__WGS84_2022.tif
+
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       127819.35       465353.89       35.505375      129.264970     3
+    Domain corner Lat/Lon:       126213.63       464823.07       35.059341      129.117519     3
+       NED corner Lat/Lon:       125958.42       463467.47       34.988450      128.740964     3
+  
+Domain corner  4 Inside NED file     1: .\Seamless_Dem\Busan__WGS84_2022.tif
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       127819.35       465353.89       35.505375      129.264970     3
+    Domain corner Lat/Lon:       126213.63       464823.07       35.059341      129.117519     3
+       NED corner Lat/Lon:       125958.42       463467.47       34.988450      128.740964     3
+  
+  
+From INITER_NED:
+
+Information on Direct Access Files Within User-specified Domain:
+
+No. of NED Files =      1
+
+Direct Access File for NED File No.      1 Contains     113 Profiles.
+
+ XBASE, YBASE and NODES for First Profile:      464464.8519     126216.5285     93
+ XBASE, YBASE and NODES for Last  Profile:      464821.7427     126216.5285     93
+

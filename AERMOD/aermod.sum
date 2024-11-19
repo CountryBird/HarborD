@@ -1,0 +1,267 @@
+ *** AERMOD - VERSION 23132  ***   ***  Evaluation of AERMOD : Busan 2023-2024                              ***        10/30/24
+ *** AERMET - VERSION  23132 ***   ***  Test                                                                ***        01:00:26
+                                                                                                                       PAGE   1
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                            ***     MODEL SETUP OPTIONS SUMMARY       ***
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ ** Model Options Selected:
+      * Model Uses Regulatory DEFAULT Options
+      * Model Is Setup For Calculation of Average CONCentration Values.
+      * NO GAS DEPOSITION Data Provided.
+      * NO PARTICLE DEPOSITION Data Provided.
+      * Model Uses NO DRY DEPLETION. DDPLETE  =  F
+      * Model Uses NO WET DEPLETION. WETDPLT  =  F
+      * Stack-tip Downwash.
+      * Model Accounts for ELEVated Terrain Effects.
+      * Use Calms Processing Routine.
+      * Use Missing Data Processing Routine.
+      * No Exponential Decay.
+      * Model Uses RURAL Dispersion Only.
+      * CCVR_Sub - Meteorological data includes CCVR substitutions
+      * Model Assumes No FLAGPOLE Receptor Heights. 
+      * The User Specified a Pollutant Type of: PM10    
+  
+ **Model Calculates  3 Short Term Average(s) of:   1-HR   3-HR  24-HR
+     and Calculates PERIOD Averages
+  
+ **This Run Includes:      1 Source(s);       1 Source Group(s); and   10000 Receptor(s)
+
+                with:      1 POINT(s), including
+                           0 POINTCAP(s) and      0 POINTHOR(s)
+                 and:      0 VOLUME source(s)
+                 and:      0 AREA type source(s)
+                 and:      0 LINE source(s)
+                 and:      0 RLINE/RLINEXT source(s)
+                 and:      0 OPENPIT source(s)
+                 and:      0 BUOYANT LINE source(s) with a total of     0 line(s)
+                 and:      0 SWPOINT source(s)
+
+  
+ **Model Set To Continue RUNning After the Setup Testing.
+
+ **The AERMET Input Meteorological Data Version Date:  23132
+  
+ **Output Options Selected:
+          Model Outputs Tables of PERIOD Averages by Receptor
+          Model Outputs Tables of Highest Short Term Values by Receptor (RECTABLE Keyword)
+          Model Outputs Tables of Overall Maximum Short Term Values (MAXTABLE Keyword)
+          Model Outputs External File(s) of High Values for Plotting (PLOTFILE Keyword)
+          Model Outputs Separate Summary File of High Ranked Values (SUMMFILE Keyword)
+  
+ **NOTE:  The Following Flags May Appear Following CONC Values:  c for Calm Hours
+                                                                 m for Missing Hours
+                                                                 b for Both Calm and Missing Hours
+  
+ **Misc. Inputs:  Base Elev. for Pot. Temp. Profile (m MSL) =    73.20 ;  Decay Coef. =    0.000     ;  Rot. Angle =     0.0
+                  Emission Units = GRAMS/SEC                                ;  Emission Rate Unit Factor =   0.10000E+07
+                  Output Units   = MICROGRAMS/M**3                         
+  
+ **Approximate Storage Requirements of Model =      5.5 MB of RAM.
+  
+ **Input Runstream File:          aermod.inp                                                                                      
+ **Output Print File:             aermod.out                                                                                      
+
+ **Detailed Error/Message File:   ERRORS.OUT                                                                                      
+ **File for Summary of Results:   aermod.sum                                                                                      
+ *** AERMOD - VERSION 23132  ***   ***  Evaluation of AERMOD : Busan 2023-2024                              ***        10/30/24
+ *** AERMET - VERSION  23132 ***   ***  Test                                                                ***        01:00:26
+                                                                                                                       PAGE   2
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                            *** METEOROLOGICAL DAYS SELECTED FOR PROCESSING ***
+                                                               (1=YES; 0=NO)
+
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1
+
+                       METEOROLOGICAL DATA PROCESSED BETWEEN START DATE: 2023   7 21  6
+                                                           AND END DATE: 2023   7 21  6
+
+                NOTE:  METEOROLOGICAL DATA ACTUALLY PROCESSED WILL ALSO DEPEND ON WHAT IS INCLUDED IN THE DATA FILE.
+
+
+
+                                  *** UPPER BOUND OF FIRST THROUGH FIFTH WIND SPEED CATEGORIES ***
+                                                            (METERS/SEC)
+
+                                                 1.54,   3.09,   5.14,   8.23,  10.80,
+ *** AERMOD - VERSION 23132  ***   ***  Evaluation of AERMOD : Busan 2023-2024                              ***        10/30/24
+ *** AERMET - VERSION  23132 ***   ***  Test                                                                ***        01:00:26
+                                                                                                                       PAGE   3
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                    *** UP TO THE FIRST 24 HOURS OF METEOROLOGICAL DATA ***
+
+   Surface file:   ..\aermet\aermet.sfc                                                               Met Version:  23132
+   Profile file:   ..\aermet\aermet.pfl                                                            
+   Surface format: FREE                                                                                                     
+   Profile format: FREE                                                                                                     
+   Surface station no.:      159                  Upper air station no.:    47155
+                  Name: BUSAN                                      Name: CHANGWON                                
+                  Year:   2023                                     Year:   2023
+
+ First 24 hours of scalar data
+ YR MO DY JDY HR     H0     U*     W*  DT/DZ ZICNV ZIMCH  M-O LEN    Z0  BOWEN ALBEDO  REF WS   WD     HT  REF TA     HT
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 23 06 10 161 01  -56.5  0.575 -9.000 -9.000 -999. 1047.    299.9  0.60   0.40   1.00    7.00  230.   40.0  294.2   40.0
+ 23 06 10 161 02  -58.8  0.629 -9.000 -9.000 -999. 1196.    377.5  0.60   0.40   1.00    8.00  250.   50.0  294.4   50.0
+ 23 06 10 161 03  -57.6  0.658 -9.000 -9.000 -999. 1281.    441.0  0.60   0.40   1.00    7.00  250.   30.0  294.4   30.0
+ 23 06 10 161 04  -54.2  0.581 -9.000 -9.000 -999. 1071.    322.3  0.60   0.40   1.00    7.00  250.   40.0  295.0   40.0
+ 23 06 10 161 05  -35.3  0.408 -9.000 -9.000 -999.  655.    171.8  0.60   0.40   0.58    6.00  250.   50.0  294.9   50.0
+ 23 06 10 161 06   17.3  0.453  0.509  0.005  272.  732.   -480.9  0.30   0.40   0.29    5.00  270.   30.0  295.6   30.0
+ 23 06 10 161 07   61.2  0.530  1.000  0.005  582.  925.   -216.4  0.60   0.40   0.19    5.00  200.   40.0  297.0   40.0
+ 23 06 10 161 08   98.3  0.448  1.281  0.005  764.  726.    -81.6  0.60   0.40   0.16    4.00  180.   50.0  299.8   50.0
+ 23 06 10 161 09  122.5  0.861  1.453  0.005  894. 1918.   -465.1  0.60   0.40   0.15    8.00  180.   30.0  298.4   30.0
+ 23 06 10 161 10  101.3  0.810  1.411  0.005  990. 1757.   -467.3  0.60   0.40   0.15    8.00  180.   40.0  298.9   40.0
+ 23 06 10 161 11  110.5  0.700  1.498  0.005 1087. 1425.   -276.6  0.60   0.40   0.15    7.00  180.   50.0  300.8   50.0
+ 23 06 10 161 12  159.2  0.871  1.754  0.005 1210. 1943.   -369.6  0.60   0.40   0.15    8.00  180.   30.0  300.2   30.0
+ 23 06 10 161 13  154.7  0.738  1.790  0.005 1323. 1550.   -231.8  0.60   0.40   0.15    7.00  180.   40.0  301.9   40.0
+ 23 06 10 161 14  132.4  0.790  1.738  0.005 1416. 1682.   -332.1  0.60   0.40   0.15    8.00  180.   50.0  303.1   50.0
+ 23 06 10 161 15  100.6  0.572  1.614  0.005 1491. 1094.   -165.8  0.60   0.40   0.16    5.00  180.   30.0  304.2   30.0
+ 23 06 10 161 16   75.0  0.451  1.479  0.005 1539.  745.   -108.8  0.60   0.40   0.17    4.00  180.   40.0  302.5   40.0
+ 23 06 10 161 17   49.4  0.372  1.295  0.005 1569.  550.    -92.8  0.30   0.40   0.21    4.00  110.   50.0  301.0   50.0
+ 23 06 10 161 18   15.1  0.290  0.874  0.005 1581.  378.   -143.9  0.30   0.40   0.34    3.00   70.   30.0  301.8   30.0
+ 23 06 10 161 19   -6.5  0.123 -9.000 -9.000 -999.  130.     25.2  0.30   0.40   0.72    3.00   50.   40.0  297.3   40.0
+ 23 06 10 161 20   -9.3  0.156 -9.000 -9.000 -999.  148.     36.5  0.30   0.40   1.00    4.00   70.   50.0  297.3   50.0
+ 23 06 10 161 21  -15.6  0.174 -9.000 -9.000 -999.  174.     30.0  0.30   0.40   1.00    4.00   70.   30.0  297.3   30.0
+ 23 06 10 161 22  -11.6  0.164 -9.000 -9.000 -999.  159.     33.5  0.30   0.40   1.00    4.00   70.   40.0  296.8   40.0
+ 23 06 10 161 23   -5.0  0.117 -9.000 -9.000 -999.   97.     28.8  0.30   0.40   1.00    3.00   70.   50.0  296.5   50.0
+ 23 06 10 161 24   -7.9  0.130 -9.000 -9.000 -999.  113.     24.8  0.30   0.40   1.00    3.00   50.   30.0  296.0   30.0
+
+
+ First hour of profile data
+ YR MO DY HR HEIGHT F  WDIR    WSPD AMB_TMP sigmaA  sigmaW  sigmaV
+ 23 06 10 01   40.0 1  230.    7.00   294.3   99.0  -99.00  -99.00
+
+ F indicates top of profile (=1) or below (=0)
+ *** AERMOD - VERSION 23132  ***   ***  Evaluation of AERMOD : Busan 2023-2024                              ***        10/30/24
+ *** AERMET - VERSION  23132 ***   ***  Test                                                                ***        01:00:26
+                                                                                                                       PAGE   4
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                        *** THE SUMMARY OF MAXIMUM PERIOD (     1 HRS) RESULTS ***
+
+
+                                    ** CONC OF PM10     IN MICROGRAMS/M**3                          **
+
+                                                                                                             NETWORK
+GROUP ID                       AVERAGE CONC                RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)  OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+ALL       1ST HIGHEST VALUE IS    5503.14108 AT (  508680.00,  3884560.00,     2.72,   157.49,    0.00)  DC          
+          2ND HIGHEST VALUE IS     643.67342 AT (  508650.00,  3884530.00,     2.35,   157.49,    0.00)  DC          
+          3RD HIGHEST VALUE IS     486.52761 AT (  508650.00,  3884560.00,     2.32,   157.49,    0.00)  DC          
+          4TH HIGHEST VALUE IS     326.94361 AT (  508620.00,  3884530.00,     1.52,   157.49,    0.00)  DC          
+          5TH HIGHEST VALUE IS     304.37906 AT (  508680.00,  3884590.00,     2.70,   157.49,    0.00)  DC          
+          6TH HIGHEST VALUE IS     247.73954 AT (  508620.00,  3884500.00,     1.54,   157.49,    0.00)  DC          
+          7TH HIGHEST VALUE IS     212.93125 AT (  508710.00,  3884560.00,     2.91,   157.49,    0.00)  DC          
+          8TH HIGHEST VALUE IS     187.53729 AT (  508710.00,  3884590.00,     2.90,   157.49,    0.00)  DC          
+          9TH HIGHEST VALUE IS     186.29988 AT (  508590.00,  3884500.00,     0.70,   157.49,    0.00)  DC          
+         10TH HIGHEST VALUE IS     135.86099 AT (  508590.00,  3884470.00,     0.72,   157.49,    0.00)  DC          
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION 23132  ***   ***  Evaluation of AERMOD : Busan 2023-2024                              ***        10/30/24
+ *** AERMET - VERSION  23132 ***   ***  Test                                                                ***        01:00:26
+                                                                                                                       PAGE   5
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                                *** THE SUMMARY OF HIGHEST  1-HR RESULTS ***
+
+
+                                    ** CONC OF PM10     IN MICROGRAMS/M**3                          **
+
+                                                      DATE                                                                    NETWORK
+GROUP ID                          AVERAGE CONC     (YYMMDDHH)             RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)    OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  
+ALL      HIGH   1ST HIGH VALUE IS    5503.14108  ON 23072106: AT (  508680.00,  3884560.00,     2.72,   157.49,    0.00)  DC          
+         HIGH   2ND HIGH VALUE IS       0.00000  ON 00000000: AT (       0.00,        0.00,     0.00,   157.49,    0.00)
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION 23132  ***   ***  Evaluation of AERMOD : Busan 2023-2024                              ***        10/30/24
+ *** AERMET - VERSION  23132 ***   ***  Test                                                                ***        01:00:26
+                                                                                                                       PAGE   6
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                                *** THE SUMMARY OF HIGHEST  3-HR RESULTS ***
+
+
+                                    ** CONC OF PM10     IN MICROGRAMS/M**3                          **
+
+                                                      DATE                                                                    NETWORK
+GROUP ID                          AVERAGE CONC     (YYMMDDHH)             RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)    OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  
+ALL      HIGH   1ST HIGH VALUE IS    5503.14108  ON 23072106: AT (  508680.00,  3884560.00,     2.72,   157.49,    0.00)  DC          
+         HIGH   2ND HIGH VALUE IS       0.00000  ON 00000000: AT (       0.00,        0.00,     0.00,   157.49,    0.00)
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION 23132  ***   ***  Evaluation of AERMOD : Busan 2023-2024                              ***        10/30/24
+ *** AERMET - VERSION  23132 ***   ***  Test                                                                ***        01:00:26
+                                                                                                                       PAGE   7
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                                *** THE SUMMARY OF HIGHEST 24-HR RESULTS ***
+
+
+                                    ** CONC OF PM10     IN MICROGRAMS/M**3                          **
+
+                                                      DATE                                                                    NETWORK
+GROUP ID                          AVERAGE CONC     (YYMMDDHH)             RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)    OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  
+ALL      HIGH   1ST HIGH VALUE IS       0.00000  ON 00000000: AT (       0.00,        0.00,     0.00,     0.00,    0.00)
+         HIGH   2ND HIGH VALUE IS       0.00000  ON 00000000: AT (       0.00,        0.00,     0.00,     0.00,    0.00)
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION 23132  ***   ***  Evaluation of AERMOD : Busan 2023-2024                              ***        10/30/24
+ *** AERMET - VERSION  23132 ***   ***  Test                                                                ***        01:00:26
+                                                                                                                       PAGE   8
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+ *** Message Summary : AERMOD Model Execution ***
+
+  --------- Summary of Total Messages --------
+  
+ A Total of            0 Fatal Error Message(s)
+ A Total of            0 Warning Message(s)
+ A Total of           18 Informational Message(s)
+
+ A Total of            1 Hours Were Processed
+
+ A Total of            0 Calm Hours Identified
+
+ A Total of            0 Missing Hours Identified (  0.00 Percent)
+  
+  
+    ******** FATAL ERROR MESSAGES ******** 
+               ***  NONE  ***         
+  
+  
+    ********   WARNING MESSAGES   ******** 
+               ***  NONE  ***        
+  

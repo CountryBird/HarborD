@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deck.gl Map Animation</title>
+  <!-- Deck.gl과 Mapbox GL JS의 CDN 추가 -->
+  <script src="https://unpkg.com/deck.gl@^9.0.0/dist.min.js"></script>
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
+  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { margin: 0; overflow: hidden; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; height: 90%;}
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script src="script.js"></script>
+  
+  <div id="current-time">Loading...</div>
+
+  <div id="controls">
+    <label for="time-slider">Select Time:</label>
+    <input type="range" id="time-slider" min="0" max="44" value="0">
+    <button id="toggle-animation">Start Animation</button>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,203 @@
+ AERMET_SETUP
+ SUCCESSFUL
+
+ AERMET VERSION  23132
+
+ START PROCESSING DATE/TIME: OCTOBER 17, 2024  19:03:32 PM
+
+ RUNSTREAM CONTROL FILE: ours1.inp
+
+
+ ****************************  INPUT SUMMARY **************************** 
+
+ PROCESSING STAGES 1
+
+
+
+ 1.  JOB FILE NAMES
+
+ MESSAGES   OPEN     aermet_st1.msg
+ REPORT     OPEN     aermet_st1.rpt
+ DEBUG      OPEN     aermet_debug.txt
+
+
+
+ 2. UPPERAIR DATA
+
+ PROCESSING DATES: 06/10/2023 - 06/10/2024
+
+                    SITE ID     LATITUDE    LONGITUDE     TIME ADJUSTMENT
+                   --------     --------    ---------     ---------------
+ LOCATION:            47155        35.17       128.57             0
+
+ DATA FILE:      OPEN      upper_changwon.fsl
+ EXTRACT FILE:   OPEN      upper.iqa
+ QAOUT FILE:     OPEN      upper.oqa
+
+ UPPER AIR DATA ABOVE 5000 NOT EXTRACTED
+
+ UPPER AIR AUTOMATIC DATA CHECKS ARE: OFF
+
+
+
+ 3. SURFACE DATA
+
+ PROCESSING DATES: 06/10/2023 - 06/10/2024
+
+                    SITE ID     LATITUDE    LONGITUDE     TIME ADJUSTMENT    ELEVATION
+                   --------     --------    ---------     ---------------    ---------
+ LOCATION:              159        35.10       129.03             0               0.00
+
+ DATA FILE:      OPEN      surface_159.dat
+ EXTRACT FILE:   OPEN      surface.iqa
+ QAOUT FILE:     OPEN      surface.oqa
+
+
+
+ 4. ONSITE DATA
+
+ PROCESSING DATES: 06/10/2023 - 06/10/2024
+
+                    SITE ID     LATITUDE    LONGITUDE     TIME ADJUSTMENT    ELEVATION
+                   --------     --------    ---------     ---------------    ---------
+ LOCATION:              159        35.10       129.11             0               0.00
+
+ DATA FILE:      OPEN      onsite_baegunpo.dat
+ QAOUT FILE:     OPEN      onsite.oqa
+
+ NUMBER OF OBSERVATIONS/HOUR:  1
+
+ THRESHOLD WIND SPEED (M/S):    0.30
+
+
+
+ 5. PROG DATA
+
+ NO PROCESSING REQUESTED
+
+
+
+
+ 6. METPREP DATA
+
+ NO PROCESSING REQUESTED
+
+
+
+ ****************************  QA SUMMARY **************************** 
+
+
+ UPPERAIR DATA
+
+ NON-QA SUMMARY CHECKS
+
+ CALM WIND CONDITIONS (WS=0, WD=0):       22
+ ZERO WIND SPEED; NON-ZERO WIND DIRECTION:        0
+ DEW POINT GREATER THAN DRY BULB TEMPERATURE:        0
+ NUMBER OF SOUNDINGS THAT DO NOT EXTEND TO 5000 M:        1
+
+ NUMBER OF DAYS WITH NO SOUNDINGS:    0
+
+ NUMBER OF DAYS WITH SOUNDINGS BUT NO AM SOUNDINGS:    0
+
+
+ SURFACE DATA
+
+ VARIABLE   MISSING VALUE   LOWER BOUND          UPPER BOUND
+ TMPD         999.00        <= -30.00            >= 40.00            
+ WDIR         999.00        < 0.00               > 360.00            
+ WSPD         999.00        < 0.00               > 50.00             
+
+ VARIABLE       #          #        LOWER       UPPER        %
+               OBS      MISSING     BOUND       BOUND     ACCEPTED
+ TMPD         8800          1          0          0         99.99
+ WDIR         8800          0          0          0        100.00
+ WSPD         8800          0          0          0        100.00
+
+ WIND, TEMPERATURE, AND PRECIPITATION CHECKS
+ NUMBER OF HOURS:
+    136 CALM WINDS (WDIR = 0, WSPD = 0)
+     67 WDIR = 0, WSPD > 0
+      0 WDIR > 0, WSPD = 0
+      0 WINDS FLAGGED AS VARIABLE
+      0 TEMPERATURE < DEWPOINT
+      0 PRECIP WITHOUT WEATHER CODE
+      0 WEATHER CODE WITHOUT PRECIP
+
+
+ ONSITE DATA
+
+ VARIABLE   MISSING VALUE   LOWER BOUND          UPPER BOUND
+   TT          99.00        <= -30.00            >= 40.00            
+   WD         999.00        < 0.00               > 360.00            
+   WS          99.00        < 0.00               > 50.00             
+   RH         999.00        < 0.00               > 100.00            
+
+
+HOURLY VALUES
+
+
+ LEVEL                VARIABLE       #          #        LOWER       UPPER        %
+                                    OBS      MISSING     BOUND       BOUND     ACCEPTED
+   40.000 M               TT       7939        923          0          0         88.37
+                          WD       7939        127          0          0         98.40
+                          WS       7939          0          0          0        100.00
+                          RH       7939        923          0          0         88.37
+
+ WIND AND TEMPERATURE CHECKS (IF APPLICABLE)
+ NUMBER OF OBS:
+
+    127 CALM WINDS (< THRESHOLD)
+      0 NO INPUT WD WITH WS
+      0 NO INPUT WD WITH WS
+
+
+ ****************************  MESSAGE SUMMARY **************************** 
+
+
+
+ ERROR MESSAGES        0 MESSAGES
+
+
+
+ WARNING MESSAGES        2 MESSAGES
+
+ W50:        1
+ W54:        1
+
+
+ INFORMATION MESSAGES       20 MESSAGES
+
+ I01:        1
+ I20:        2
+ I22:        1
+ I23:        1
+ I24:        1
+ I25:        1
+ I26:        1
+ I40:        2
+ I46:        1
+ I47:        1
+ I50:        1
+ I53:        1
+ I56:        1
+ I60:        2
+ I63:        1
+ I64:        1
+ I66:        1
+
+
+ QA MESSAGES     2504 MESSAGES
+
+ Q21:      177
+ Q28:       23
+ Q40:        1
+ Q43:      136
+ Q45:       67
+ Q61:     1973
+ Q64:      127
+
+
+ AERMET FINISHED SUCCESSFULLY
+
+ END PROCESSING DATE/TIME: OCTOBER 17, 2024  19:03:33 PM
