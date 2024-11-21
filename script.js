@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Deck 초기화
   const deckgl = new deck.DeckGL({
     container: 'map',
-    mapboxApiAccessToken: 'pk.eyJ1IjoiY291bnRyeWJpcmQiLCJhIjoiY20ycTZva25zMHp0NDJpcTkxOTBtOXo1eCJ9.KCwDZLhDsmM0ptAknZeqyw',
+    mapboxApiAccessToken: 'USE YOUR PUBLIC KEY',
     //mapStyle: 'mapbox://styles/mapbox/streets-v12',
     //  mapStyle: 'mapbox://styles/mapbox/satellite-v9',
     // mapStyle: 'mapbox://styles/mapbox/satellite-v9',
